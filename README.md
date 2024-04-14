@@ -69,3 +69,7 @@ Kupon Güncelleme(Hilmi İhsan Demir)<br>
 
 # Proje Planı
 7. ![Proje-Plani](https://github.com/Erendile/GlintAura/assets/77547268/f0cec686-f397-4794-9f90-ba20693e48d8)
+
+# Durum Senaryoları
+
+1. [Mustafa Eren Cevizci'nin durum senaryosu](https://github.com/Erendile/GlintAura/blob/main/KullaniciSenaryosu-Eren.pdf)
