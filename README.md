@@ -68,8 +68,10 @@ Kupon Güncelleme(Hilmi İhsan Demir)<br>
 5. [Hilmi İhsan Demir'in Gereksinimleri](https://github.com/Erendile/GlintAura/blob/main/hilmi-ihsan-demir-gereksinimler.md)
 
 # Proje Planı
-7. ![Proje-Plani](https://github.com/Erendile/GlintAura/assets/77547268/f0cec686-f397-4794-9f90-ba20693e48d8)
+ ![Proje-Plani](https://github.com/Erendile/GlintAura/assets/77547268/f0cec686-f397-4794-9f90-ba20693e48d8)
 
 # Durum Senaryoları
 
 1. [Mustafa Eren Cevizci'nin durum senaryosu](https://github.com/Erendile/GlintAura/blob/main/KullaniciSenaryosu-Eren.pdf)
+2. [Emirhan Okşar'in durum senaryosu](https://github.com/Erendile/GlintAura/blob/main/KullaniciSenaryosu-Emirhan.pdf)
+
