@@ -23,7 +23,15 @@ const AdminLayout = ({ children }) => {
   const userRole = getUserRole();
 
   const menuItems = [
- 
+    {
+      key: "1",
+      icon: <DashboardOutlined />,
+      label: "Dashboard",
+      path: "/admin",
+      onClick: () => {
+        navigate(`/admin`);
+      },
+    },
     {
       key: "2",
       icon: <AppstoreOutlined />,
@@ -48,7 +56,63 @@ const AdminLayout = ({ children }) => {
         },
       ],
     },
-
+    {
+      key: "5",
+      icon: <LaptopOutlined />,
+      label: "Ürünler",
+      path: "/",
+      children: [
+        {
+          key: "6",
+          label: "Ürün Listesi",
+          path: "/admin/products",
+          onClick: () => {
+            navigate(`/admin/products`);
+          },
+        },
+        {
+          key: "7",
+          label: "Yeni Ürün Oluştur",
+          path: "/admin/products/create",
+          onClick: () => {
+            navigate("/admin/products/create");
+          },
+        },
+      ],
+    },
+    {
+      key: "8",
+      icon: <BarcodeOutlined />,
+      label: "Kuponlar",
+      path: "/admin/coupons",
+      children: [
+        {
+          key: "9",
+          label: "Kupon Listesi",
+          path: "/admin/coupons",
+          onClick: () => {
+            navigate(`/admin/coupons`);
+          },
+        },
+        {
+          key: "10",
+          label: "Yeni Kupon Oluştur",
+          path: "/admin/coupons/create",
+          onClick: () => {
+            navigate("/admin/coupons/create");
+          },
+        },
+      ],
+    },
+    {
+      key: "11",
+      icon: <UserOutlined />,
+      label: "Kullanıcı Listesi",
+      path: "/admin/users",
+      onClick: () => {
+        navigate(`/admin/users`);
+      },
+    },
     {
       key: "12",
       icon: <ShoppingCartOutlined />,
