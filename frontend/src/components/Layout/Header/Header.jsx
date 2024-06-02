@@ -6,7 +6,7 @@ import "./Header.css";
 
 const Header = ({ setIsSearchShow }) => {
   const { cartItems } = useContext(CartContext);
-  const user = {name: "Eren", surname: "Dile"}
+  const user = localStorage.getItem("user");
   const { pathname } = useLocation();
 
   const handleLogout = () => {

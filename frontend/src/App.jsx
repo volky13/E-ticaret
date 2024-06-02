@@ -7,6 +7,7 @@ import AuthPage from "./pages/AuthPage";
 import ProductDetailsPage from "./pages/ProductDetailsPage";
 import PrivateRoute from './shared/PrivateRoute';
 
+
 import "./App.css";
 import UserPage from "./pages/Admin/UserPage";
 import CategoryPage from "./pages/Admin/Categories/CategoryPage";
@@ -21,8 +22,8 @@ import UpdateCouponPage from "./pages/Admin/Coupons/UpdateCouponPage";
 import Success from "./pages/Success";
 import OrderPage from "./pages/Admin/OrderPage";
 import DashboardPage from "./pages/Admin/DashboardPage";
-import ProfilePage from "./pages/ProfilePage";
 import Products from "./components/Products/Products";
+import ProfilePage from "./pages/ProfilePage";
 
 function App() {
   return (
