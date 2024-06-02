@@ -5,6 +5,7 @@ import ContactPage from "./pages/ContactPage";
 import CartPage from "./pages/CartPage";
 import AuthPage from "./pages/AuthPage";
 import ProductDetailsPage from "./pages/ProductDetailsPage";
+import PrivateRoute from './shared/PrivateRoute';
 
 import "./App.css";
 import UserPage from "./pages/Admin/UserPage";
@@ -20,6 +21,7 @@ import UpdateCouponPage from "./pages/Admin/Coupons/UpdateCouponPage";
 import Success from "./pages/Success";
 import OrderPage from "./pages/Admin/OrderPage";
 import DashboardPage from "./pages/Admin/DashboardPage";
+import ProfilePage from "./pages/ProfilePage";
 import Products from "./components/Products/Products";
 
 function App() {
@@ -30,7 +32,14 @@ function App() {
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/cart" element={<CartPage />} />
       <Route path="/auth" element={<AuthPage />} />
-
+      <Route 
+          path="/profile" 
+          element={
+            <PrivateRoute>
+              <ProfilePage/>
+            </PrivateRoute>
+          } 
+        />
       <Route path="/product/:id" element={<ProductDetailsPage />} />
       <Route path="/success" element={<Success />} />
       <Route path="/category/:id" element={<Products />} />
