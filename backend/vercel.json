@@ -21,9 +21,7 @@
       "dest": "/frontend/$1"
     }
   ],
-  "functions": {
-    "backend/*.js": {
-      "maxDuration": 30
-    }
+  {
+    "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
   }
 }
