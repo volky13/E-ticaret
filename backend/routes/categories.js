@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Category = require("../models/category.js");
-
+const Product = require("../models/product.js"); 
 
 //Yeni bir kategori oluşturma(Create)
 router.post("/", async (req, res) => {

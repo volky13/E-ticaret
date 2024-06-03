@@ -29,13 +29,13 @@ const CouponPage = () => {
         <Space>
           <Button
             type="primary"
-            onClick={() => navigate(`/admin/categories/update/${record._id}`)}
+            onClick={() => navigate(`/admin/coupons/update/${record._id}`)}
           >
             Güncelle
           </Button>
           <Popconfirm
-            title="Kategoriyi Sil"
-            description="Kategoriyi silmek istediğinizden emin misiniz?"
+            title="Kupon Sil"
+            description="Kuponu silmek istediğinizden emin misiniz?"
             okText="Yes"
             cancelText="No"
             onConfirm={() => deleteCoupon(record._id)}

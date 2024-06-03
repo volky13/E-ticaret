@@ -21,7 +21,6 @@ import CreateCouponPage from "./pages/Admin/Coupons/CreateCouponPage";
 import UpdateCouponPage from "./pages/Admin/Coupons/UpdateCouponPage";
 import Success from "./pages/Success";
 import OrderPage from "./pages/Admin/OrderPage";
-import DashboardPage from "./pages/Admin/DashboardPage";
 import Products from "./components/Products/Products";
 import ProfilePage from "./pages/ProfilePage";
 
@@ -46,7 +45,6 @@ function App() {
       <Route path="/category/:id" element={<Products />} />
       <Route path="/category/:id/product/:id" element={<ProductDetailsPage />} />
       <Route path="/admin/*">
-        <Route index element={<DashboardPage />} />
         <Route path="users" element={<UserPage />} />
         <Route path="categories" element={<CategoryPage />} />
         <Route path="categories/create" element={<CreateCategoryPage />} />

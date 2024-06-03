@@ -156,7 +156,7 @@ const Profile = () => {
       <div className="profile-container">
         <Card className="profile-card" title="Profil" extra={<div style={{display: "flex", gap: 20}}>
           <Button type="primary" onClick={openModal}>Bilgileri Güncelle</Button>
-          <Button danger type="primary" onClick={openDeleteModal}>Profili Sil</Button>
+          <Button danger type="primary" onClick={()=>setIsDleteModalOpen(true)}>Profili Sil</Button>
         </div>}>
           <p><strong>Kullanıcı Adı:</strong> {user.username}</p>
           <p><strong>Email:</strong> {user.email}</p>

@@ -20,10 +20,7 @@ const Success = () => {
           extra={[
             <Link to={"/"} key="home">
               <Button type="primary">Ana Sayfa</Button>
-            </Link>,
-            <a href="/admin/orders" key={"order"}>
-              <Button key="buy">Siparişlerim</Button>
-            </a>,
+            </Link>
           ]}
         />
       </div>

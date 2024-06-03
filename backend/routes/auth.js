@@ -99,8 +99,10 @@ router.get("/profile/:email", async (req, res) => {
 
 router.put("/updateProfile", async (req, res) => {
   try {
-    const { id, username, email, address } = req.body;
+    const {username, email, address } = req.body;
+    const id = req.body._id || req.body.id;
     const user = await User.findById(id);
+    console.log(id);
     if (!user) {
       return res.status(404).json({ error: "User not found" });
     }
