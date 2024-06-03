@@ -37,7 +37,7 @@ React Çatısı Kullanıldı
 
 # Hilmi İhsan Demir Tasarımlar #
 1. Kupon Oluşturma
-2. Kupob Silme
+2. Kupon Silme
 3. Kupon Güncelleme
 4. Kupon Ekleme
 5. Kullanıcı Listeleme
