@@ -1,5 +1,4 @@
 Docker: Kullanıldı    REST API: Kullanıldı
--------------------------------------------
 
 # Mustafa Eren Cevizci Tasarımlar #
 1. Kayıt Ol
