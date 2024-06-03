@@ -6,7 +6,9 @@ Her zaman en iyi fiyatlarla,kaliteli ve güncel ürünlerle,sorunsuz ödeme yön
 
 **Proje Kategorisi:** E-ticaret
 
-**Referans Uygulama:** [beymen.com](https://www.beymen.com/)
+**Referans Uygulama:** [Beymen.com](https://www.beymen.com/)
+
+**Uygulama Adresi:** [GlintAura.com](https://glint-aura.vercel.app/)
 
 **Grup Adı:** 4N1K
 
