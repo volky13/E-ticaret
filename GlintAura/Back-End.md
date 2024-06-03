@@ -1,6 +1,6 @@
 Docker: Kullanıldı    REST API: Kullanıldı
 
-# Mustafa Eren Cevizci Tasarımlar #
+# Mustafa Eren Cevizci Kodlama #
 1. Kayıt Ol
 2. Giriş Yap
 3. Sepete Ürün Eklene
@@ -9,7 +9,7 @@ Docker: Kullanıldı    REST API: Kullanıldı
 6. Çıkış Yap
 
 
-# Emirhan Okşar Tasarımlar #
+# Emirhan Okşar Kodlama #
 1. Profil Bilgileri Güncelleme
 2. Profil Silme
 3. Favorileri Görüntüleme
@@ -18,7 +18,7 @@ Docker: Kullanıldı    REST API: Kullanıldı
 6. Yeni Yorum Yapma
 7. Şifremi Unuttum
 
-# Volkan Ekici Tasarımlar #
+# Volkan Ekici Kodlama #
 1. Kategori Listeleme
 2. Kategori Silme
 3. Kategori Güncelleme
@@ -27,7 +27,7 @@ Docker: Kullanıldı    REST API: Kullanıldı
 6. Ödeme Geçmişi
 
 
-# Beyza Kılınç Tasarımlar #
+# Beyza Kılınç Kodlama #
 1. Ürün Oluşturma
 2. Ürün Silme
 3. Ürün Güncelleme
@@ -35,7 +35,7 @@ Docker: Kullanıldı    REST API: Kullanıldı
 5. Ürün Arama
 6. Kategoriye Göre Ürün Getirme
 
-# Hilmi İhsan Demir Tasarımlar #
+# Hilmi İhsan Demir Kodlama #
 1. Kategori Oluşturma
 2. Kategori Silme
 3. Kategori Güncelleme
