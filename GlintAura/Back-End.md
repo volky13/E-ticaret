@@ -14,7 +14,7 @@ REST API: Kullanıldı
 1. Profil Bilgileri Güncelleme
 2. Profil Silme
 3. Favorileri Görüntüleme
-4. Favorilere Ekeleme
+4. Favorilere Ekleme
 5. Favorilerden Çıkarma
 6. Yeni Yorum Yapma
 7. Şifremi Unuttum
@@ -37,9 +37,9 @@ REST API: Kullanıldı
 6. Kategoriye Göre Ürün Getirme
 
 # Hilmi İhsan Demir Kodlama #
-1. Kategori Oluşturma
-2. Kategori Silme
-3. Kategori Güncelleme
-4. Kategori Ekleme
-5. Ödeme Yapma
-6. Ödeme Geçmişi
+1. Kupon Oluşturma
+2. Kupon Silme
+3. Kupon Güncelleme
+4. Kupon Ekleme
+5. Kullanıcı Listeleme
+6. Kullanıcı Silme
