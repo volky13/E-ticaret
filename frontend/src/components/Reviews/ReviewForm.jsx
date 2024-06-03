@@ -20,24 +20,19 @@ const ReviewForm = ({ singleProduct, setSingleProduct }) => {
     if (rating === 0) {
       return message.warning("Puan seçiniz!");
     }
-    const formData = {
-      reviews: [
-        ...singleProduct.reviews,
-        {
-          text: review,
-          rating: parseInt(rating),
-          user: user.id || user._id,
-        },
-      ],
+    const reviewData = {
+      text: review,
+      rating: parseInt(rating),
+      user: user.id || user._id,
     };
 
     try {
-      const res = await fetch(`${apiUrl}/api/products/${singleProduct._id}`, {
-        method: "PUT",
+      const res = await fetch(`${apiUrl}/api/products/${singleProduct._id}/reviews`, {
+        method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(reviewData),
       });
 
       if (!res.ok) {
@@ -47,15 +42,17 @@ const ReviewForm = ({ singleProduct, setSingleProduct }) => {
 
       const data = await res.json();
       console.log(data);
+      setSingleProduct(data); // Veriyi direkt güncelliyoruz.
       setReview("");
       setRating(0);
       message.success("Yorum başarıyla eklendi.");
     } catch (error) {
-      console.log(error);
+      console.error(error); // console.log yerine console.error kullanın
       message.error("Bir şeyler yanlış gitti.");
     }
   };
-console.log(singleProduct)
+
+  console.log(singleProduct);
 
   return (
     <form className="comment-form" onSubmit={handleSubmit}>

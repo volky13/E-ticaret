@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Reviews from "../../Reviews/Reviews";
 import "./Tabs.css";
 
-const Tabs = ({ singleProduct }) => {
+const Tabs = ({ singleProduct, setSingleProduct }) => {
   const [activeTab, setActiveTab] = useState("desc");
 
   const handleTabClick = (e, tab) => {
@@ -93,6 +93,7 @@ const Tabs = ({ singleProduct }) => {
         <Reviews
           active={activeTab === "reviews" ? "content active" : "content"}
           singleProduct={singleProduct}
+          setSingleProduct={setSingleProduct}
         />
       </div>
     </div>
@@ -107,4 +108,5 @@ Tabs.propTypes = {
     colors: PropTypes.arrayOf(PropTypes.string),
     sizes: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
+  setSingleProduct: PropTypes.func,
 };
