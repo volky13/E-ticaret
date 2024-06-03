@@ -21,7 +21,9 @@ const connect = async () => {
 
 //middlewares
 app.use(express.json());
-app.use(cors({origin, credentials: true}));
+//app.use(cors({origin, credentials: true}));
+
+app.use(cors());
 
 app.use("/api", mainRoute);
 
