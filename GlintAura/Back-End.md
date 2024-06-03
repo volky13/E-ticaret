@@ -28,7 +28,7 @@ Docker: Kullanıldı    REST API: Kullanıldı
 
 
 # Beyza Kılınç Kodlama #
-1. Ürün Oluşturma
+1. Tüm Ürünleri Listeleme
 2. Ürün Silme
 3. Ürün Güncelleme
 4. Ürün Oluşturma
