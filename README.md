@@ -19,6 +19,6 @@ Her zaman en iyi fiyatlarla,kaliteli ve güncel ürünlerle,sorunsuz ödeme yön
 4. [Durum Senaryoları](https://github.com/Erendile/GlintAura/blob/main/GlintAura/durum-senaryolari.md)
 5. [Veritabanı Diyagramı](https://github.com/Erendile/GlintAura/blob/main/GlintAura/glintAuraDb.jpg)
 6. [Front-End](https://github.com/Erendile/GlintAura/blob/main/GlintAura/Front-End.md)
-7. [Back-End]((https://github.com/Erendile/GlintAura/blob/main/GlintAura/Back-End.md))
+7. [Back-End](https://github.com/Erendile/GlintAura/blob/main/GlintAura/Back-End.md)
 8. [Test](https://github.com/Erendile/GlintAura)
 9. [Geliştirici ve Kullanıcı Dökümantasyonları](https://github.com/Erendile/GlintAura)
