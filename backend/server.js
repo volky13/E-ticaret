@@ -5,6 +5,7 @@ const app = express();
 const cors=require("cors")
 const mainRoute = require("./routes/index.js");
 const port = 3000;
+const origin = process.env.CLIENT_DOMAIN;
 
 dotenv.config();
 
@@ -19,7 +20,7 @@ const connect = async () => {
 
 //middlewares
 app.use(express.json());
-app.use(cors());
+app.use(cors({origin, credentials: true}));
 
 app.use("/api", mainRoute);
 
