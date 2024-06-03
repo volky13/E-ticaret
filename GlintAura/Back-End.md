@@ -1,4 +1,5 @@
-Docker: Kullanıldı    REST API: Kullanıldı
+Docker: Kullanıldı : [Glint Aura docker test](https://www.youtube.com/watch?v=cbIVlWGxD-M)<br>
+REST API: Kullanıldı
 
 # Mustafa Eren Cevizci Kodlama #
 1. Kayıt Ol
