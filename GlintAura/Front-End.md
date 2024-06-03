@@ -36,9 +36,9 @@ React Çatısı Kullanıldı
 6. Kategoriye Göre Ürün Getirme
 
 # Hilmi İhsan Demir Tasarımlar #
-1. Kategori Oluşturma
-2. Kategori Silme
-3. Kategori Güncelleme
-4. Kategori Ekleme
-5. Ödeme Yapma
-6. Ödeme Geçmişi
+1. Kupon Oluşturma
+2. Kupob Silme
+3. Kupon Güncelleme
+4. Kupon Ekleme
+5. Kullanıcı Listeleme
+6. Kullanıcı Silme
