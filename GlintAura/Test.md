@@ -28,7 +28,7 @@
 5. Ödeme yapma
 6. Tek bir kategoriyi id e göre getirme
 
-- [Video Linki]()
+- [Video Linki](https://www.youtube.com/watch?v=SC07a1wbNRE)
 
 
 # Beyza Kılınç Test #
