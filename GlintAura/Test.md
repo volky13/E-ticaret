@@ -6,7 +6,7 @@
 5. Tek bir ürünü id e göre getirme
 6. Yorum Ekleme
 
-- [Video Linki]()
+- [Video Linki](https://youtu.be/jk9aihxg3pA?si=tAMwAxi2omDKAICB)
 
 
 # Emirhan Okşar Test #
